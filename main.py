@@ -1,4 +1,5 @@
-from chatbot import *
+#from chatbot import *
+from gui import *
 import os
 
 if __name__ == '__main__':

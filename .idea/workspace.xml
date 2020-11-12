@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="3ba33b14-8354-4a4c-b817-47ad1aac014d" />
   <component name="ProjectId" id="1k9raujwdr5witp3tabICJoylZu" />
@@ -80,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605123714609</updated>
       <workItem from="1605123715675" duration="2409000" />
-      <workItem from="1605126157032" duration="3724000" />
+      <workItem from="1605126157032" duration="4402000" />
+      <workItem from="1605214498728" duration="2287000" />
     </task>
     <servers />
   </component>
@@ -100,28 +101,28 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="115" key="FileChooserDialogImpl/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605127153100" />
-    <state width="1237" height="212" key="GridCell.Tab.0.bottom" timestamp="1605129879742">
+    <state width="1237" height="212" key="GridCell.Tab.0.bottom" timestamp="1605216799863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605129879742" />
-    <state width="1237" height="212" key="GridCell.Tab.0.center" timestamp="1605129879742">
+    <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605216799863" />
+    <state width="1237" height="212" key="GridCell.Tab.0.center" timestamp="1605216799863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605129879742" />
-    <state width="1237" height="212" key="GridCell.Tab.0.left" timestamp="1605129879742">
+    <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605216799863" />
+    <state width="1237" height="212" key="GridCell.Tab.0.left" timestamp="1605216799863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605129879742" />
-    <state width="1237" height="212" key="GridCell.Tab.0.right" timestamp="1605129879742">
+    <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605216799863" />
+    <state width="1237" height="212" key="GridCell.Tab.0.right" timestamp="1605216799863">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605129879742" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1605129591450">
+    <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605216799863" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1605216412610">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605129591450" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720/-1920.0.1920.1080@0.0.1280.720" timestamp="1605216412610" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/chatbot$main.coverage" NAME="main Coverage Results" MODIFIED="1605129879733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chatbot$main.coverage" NAME="main Coverage Results" MODIFIED="1605216799855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
