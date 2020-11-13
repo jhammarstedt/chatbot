@@ -7,7 +7,7 @@ I always spend too long selecting movies. So now I'll build one that will help m
 
 Functionality:
 Will use the tutorial and build it through messenger: 
-https://chatbotslife.com/building-a-messenger-movie-recommendations-chatbot-in-20-minutes-or-less-d0f06ad06d4b
+https://www.twilio.com/blog/2017/12/facebook-messenger-bot-python.html
 
 The initial bot should be able to:
 - Ask for preference in messenger app

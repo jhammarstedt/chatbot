@@ -1,6 +1,5 @@
 #Creating GUI with tkinter
-import tkinter
-from utils import *
+from chatbot_1_local.utils import *
 from tkinter import *
 
 

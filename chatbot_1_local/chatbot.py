@@ -43,8 +43,8 @@ print (len(classes), "classes", classes)
 print (len(words), "unique lemmatized words", words)
 
 
-pickle.dump(words,open('words.pkl','wb'))
-pickle.dump(classes,open('classes.pkl','wb'))
+pickle.dump(words, open('words.pkl', 'wb'))
+pickle.dump(classes, open('classes.pkl', 'wb'))
 
 
 # initializing training data

@@ -1,6 +1,4 @@
-#from chatbot import *
-from gui import *
-import os
+#ignore for now
 
 if __name__ == '__main__':
     print('end')
