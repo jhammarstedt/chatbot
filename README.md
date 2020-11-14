@@ -1,8 +1,5 @@
-# Chatbot
-Playing around with the tutorial now https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44
+# Movie Recommendation chatbot
 
-Futher work:
-Movie recom system:
 I always spend too long selecting movies. So now I'll build one that will help me out!
 
 Functionality:
@@ -15,6 +12,8 @@ The initial bot should be able to:
 - Suggest a movie
 - If user has seen the movie, it will run a collaborative filtering model to determine what 
 other ppl that likes this movie watches
+
+Initially we will start with keyword matching
 
 
 Further functionality will be added later.. 

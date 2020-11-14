@@ -2,6 +2,9 @@ from flask import Flask,request
 import random
 from pymessenger.bot import Bot
 import json
+from brain import Dialog
+
+
 
 with open('tokens.json') as f:
     data = json.load(f)
@@ -12,6 +15,8 @@ ACCESS_TOKEN =data['tokens'][0]['Access']
 VERIFY_TOKEN = data['tokens'][0]['Verify']
 bot = Bot(ACCESS_TOKEN)
 COUNT = 0 #message count
+dialog = Dialog() #dialog class
+
 
 @app.route('/',methods= ['GET','POST'])
 def receive_messeage():
@@ -38,16 +43,18 @@ def receive_messeage():
                             initial_response = 'Hi, I am  the Movie Bot! What type of movies do you seek today?'
                             send_message(recipient_id,initial_response)
                             COUNT += 1
-                        elif user_message in ['bye','Bye','Goodbye']:
+                        elif user_message in ['bye','Bye','Goodbye']: #end dialog
                             goodbye = 'Hope you enjoy the movie, bye!'
+                            COUNT = 0
                             send_message(recipient_id,goodbye)
-                        else:
+                        else: #if we're still in dialog
+                            #dialog.process_message_txt(user_message)
+                            bot_answer_text = demo_message() #now we just send back a random message
+                            send_message(recipient_id, bot_answer_text)
 
-                            response_sent_text = get_message() #now we just send back a random message
-                            send_message(recipient_id, response_sent_text)
                     # if users sends something else than text (gif, photo etc..)
                     if message['message'].get('attachments'):
-                        response_sent_notext = get_message()
+                        response_sent_notext = demo_message()
                         send_message(recipient_id, response_sent_notext)
         return "Message Processed"
 
@@ -56,10 +63,9 @@ def send_message(recipient_id,response):
     #sends user the text msg through response
     bot.send_text_message(recipient_id,response)
     return "success"
-
-def get_message():
-    samples = ['Great Job!','Keep being cool!','This actually works!']
-    samples = ['I only recommend the best!','I swear you will be happy with me!', 'My role here is to serve you!']
+def demo_message():
+    # Just passing in a couple of random responses for demo purposes
+    samples = ['I only recommend the best!', 'I swear you will be happy with me!', 'My role here is to serve you!']
     return random.choice(samples)
 
 def verify_fb_token(token_sent):

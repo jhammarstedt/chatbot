@@ -1,4 +1,7 @@
-#ignore for now
+import brain
 
 if __name__ == '__main__':
-    print('end')
+    brain.start_api()
+    from app import *
+
+
