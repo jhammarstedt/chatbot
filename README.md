@@ -1,4 +1,4 @@
-# Movie Recommendation chatbot
+# Movie Recommendation chatbot (WIP)
 
 I always spend too long selecting movies. So now I'll build one that will help me out!
 
